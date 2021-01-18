@@ -1,0 +1,23 @@
+{
+    "settings": {
+        "react": {
+            "version":"detect"
+        }    
+    },
+    "extends": [
+        "standard-with-typescript",
+        "plugin:react/recommended"
+    ],
+    "plugins":"react",
+    "parseOptions":
+    {
+        "project": "./tsconfig.json"
+    },
+    "rules":
+    {
+        "@typescript-eslint/consistent-type-definitions":"off",
+        "@typescript-eslint/strict-boolean-expressions":"off",
+        "react/jsc-uses-react":"error",
+        "react/jsc-uses-vars":"error"
+    }
+}
